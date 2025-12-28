@@ -1,0 +1,10 @@
+{
+  "fullName": "User Name",
+  "whatsapp": "08xxxx",
+  "email": "user@email.com",
+  "usedReferralCode": "REF123" | null,
+  "generatedReferralCode": "AB45112253",
+  "paymentStatus": "unpaid | paid",
+  "verificationStatus": "pending | verified",
+  "createdAt": "timestamp"
+}

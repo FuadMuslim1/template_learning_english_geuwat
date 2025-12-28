@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard User - Learning English Geuwat</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome, <span id="userFullName"></span>!</h1>
+    <p>Referral Code: <span id="userReferralCode"></span></p>
+    <p>Reward Balance: <span id="userBalance"></span></p>
+  </header>
+
+  <main>
+    <section id="progress-section">
+      <h2>Your Progress</h2>
+      <canvas id="progressChart" width="400" height="200"></canvas>
+      <button id="saveProgressBtn">Save Progress</button>
+    </section>
+
+    <section id="journey-section">
+      <button id="startJourneyBtn">Start Journey</button>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="dashboard.js"></script>
+</body>
+</html>

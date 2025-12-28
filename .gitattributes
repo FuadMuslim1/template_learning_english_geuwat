@@ -1,2 +1,61 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# ===============================
+# ENV & SECRETS
+# ===============================
+.env
+.env.*
+firebase-config.js
+serviceAccountKey.json
+
+# ===============================
+# FIREBASE
+# ===============================
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# ===============================
+# NODE / FUNCTIONS
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# BUILD OUTPUT
+# ===============================
+dist/
+build/
+out/
+
+# ===============================
+# LOGS & RUNTIME
+# ===============================
+logs/
+*.log
+
+# ===============================
+# SYSTEM FILES
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# EDITOR & IDE
+# ===============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ===============================
+# CACHE & TEMP
+# ===============================
+.cache/
+.tmp/
+temp/

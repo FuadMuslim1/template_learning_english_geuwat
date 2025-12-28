@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login UI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="card" id="card">
+    <div class="particles"></div>
+
+    <!-- LOGIN PANEL -->
+    <div class="panel">
+      <div class="left">
+        <h1>WELCOME BACK<br>DORA<br>THE EXPLORER</h1>
+      </div>
+      <div class="right">
+        <h2>Login</h2>
+        <form id="loginForm">
+          <div class="field">
+            <input type="email" name="email" placeholder="name@example.com" required>
+          </div>
+          <div class="field password-field">
+            <input type="password" name="password" placeholder="Password" id="loginPassword" required>
+            <span class="toggle-pass">Show</span>
+          </div>
+          <div class="forgot-link">
+            <a href="#" id="forgotPassword">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+        </form>
+        <div class="footer-note">Don't have an account? <a href="register.html">Register</a></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>

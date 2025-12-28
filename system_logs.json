@@ -1,0 +1,6 @@
+{
+  "actorUid": "uid_admin",
+  "action": "reset_monthly_reward",
+  "target": "referralCode",
+  "createdAt": "timestamp"
+}

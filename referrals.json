@@ -1,0 +1,9 @@
+{
+  "ownerUid": "uid_user",
+  "totalUsed": 12,
+  "monthlyUsed": {
+    "2025-01": 5,
+    "2025-02": 7
+  },
+  "level": "rookie | pro | legend"
+}

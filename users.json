@@ -1,0 +1,11 @@
+{
+  "uid": "auth_uid",
+  "email": "user@email.com",
+  "fullName": "User Name",
+  "whatsapp": "08xxxx",
+  "role": "user",
+  "referralCode": "AB45112253",
+  "registeredAt": "timestamp",
+  "loginExpiredAt": "timestamp",
+  "isActive": true
+}

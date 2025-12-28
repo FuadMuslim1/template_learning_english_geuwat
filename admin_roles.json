@@ -1,0 +1,4 @@
+{
+  "uid": "auth_uid",
+  "role": "admin_referral | admin_database | admin_reward | admin_notification"
+}

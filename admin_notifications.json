@@ -1,0 +1,13 @@
+{
+  "fromRole": "admin_referral",
+  "toRole": "admin_database",
+  "type": "create_user | reward | verify",
+  "payload": {
+    "email": "user@email.com",
+    "password": "referralCode",
+    "referralCode": "AB45112253",
+    "usedReferralCode": "REF123"
+  },
+  "status": "pending | success | failed",
+  "createdAt": "timestamp"
+}

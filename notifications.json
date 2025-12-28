@@ -1,0 +1,8 @@
+{
+  "targetUid": "uid_user",
+  "title": "Reward Masuk",
+  "description": "Saldo bertambah Rp50.000",
+  "link": "/dashboard/reward",
+  "isRead": false,
+  "createdAt": "timestamp"
+}
